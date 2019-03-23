@@ -12,7 +12,7 @@ def create_message(latitude, longitude):
     urlbase = 'https://api.gnavi.co.jp/RestSearchAPI/20150630/?'
 
     q = [
-        ('keyid', '4e7a04b747477a337e42203df3db7b19'),
+        ('keyid', '9d81cd93830c80b6d7334ad624296a76'),
         ('latitude', float(latitude)),
         ('longitude', float(longitude)),
         ('category_s', 'RSFST03001'), # 寿司
